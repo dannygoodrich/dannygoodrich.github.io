@@ -1,5 +1,25 @@
+html {
+    scroll-behavior: smooth;
+  }
+nav {
+    position: fixed;
+    background-color: green;
+}
 .right {
    
     height: 50vh;
     width: 50vh;
+    justify-content: end;
+}
+#nav-color {
+    background-color: rgb(154, 154, 55);
+    color: rgb(187, 204, 117);
+}
+.right{
+    justify-content: end;
+    margin: 2%;
+    
+}
+.nav-text {
+    margin: 1%;
 }

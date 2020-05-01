@@ -6,8 +6,11 @@ nav {
 }
 .right {
    
-    height: 50vh;
-    width: 50vh;
+    height: 50%;
+    width: 50%;
+    justify-content: end;
+}
+.img {
     justify-content: end;
 }
 #nav-color {

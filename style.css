@@ -1,35 +1,63 @@
 html {
     scroll-behavior: smooth;
   }
+
+body {
+    font-kerning: normal;
+    font-family: "calibri";
+}
 nav {
     position: fixed;
+    margin-bottom: 20vh;
+}
+.row {
+    display: flex;
 }
 .right {
    
-    height: 50%;
-    width: 50%;
-    justify-content: end;
+    height: 100%;
+    width: 100%;
+    
 }
 .img {
     justify-content: end;
 }
 #nav-color {
-    background-color: rgb(154, 154, 55);
-    color: black;
+    background-color: black;
+    
 }
 .right{
     justify-content: end;
     margin: 2%;
     
+    
 }
 .nav-text {
     margin: 1%;
+    color: white;
+    margin-right: 2%;
+    letter-spacing: .3rem;
+   
 }
 #nav-color {
-    background-color: rgb(154, 154, 55);
-    color: rgb(187, 204, 117);
-}
-a {
+    background-color: black;
     
-    color: black;
+}
+
+.white-text {
+    background-color: black;
+    color: white;
+}
+.center {
+    text-align: center;
+    letter-spacing: .1rem;
+}
+.top-space {
+    margin-top: 20px;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid grey;
 }

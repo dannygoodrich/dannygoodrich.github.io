@@ -13,15 +13,13 @@ nav {
 .row {
     display: flex;
 }
-.right {
-   
+
+img {
     height: 100%;
     width: 100%;
     
 }
-.img {
-    justify-content: end;
-}
+
 #nav-color {
     background-color: black;
     
@@ -29,6 +27,9 @@ nav {
 .right{
     justify-content: end;
     margin: 2%;
+    height: 20em;
+    width: 30em;
+    
     
     
 }
@@ -54,6 +55,9 @@ nav {
 }
 .top-space {
     margin-top: 20px;
+}
+.space {
+    letter-spacing: .3rem;
 }
 hr {
     margin-top: 1rem;

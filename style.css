@@ -29,9 +29,34 @@ img {
     margin: 2%;
     height: 20em;
     width: 30em;
+}
+.img-top {
+    display: none;
+}
+.right:hover .img-top {
+    display: inline;
+
     
+}
+.svg {
     
+    background-image: url("/Assets/images/mark-github.svg");
+    height: 5;
+    width: 20;
+}
+.logo {
+    background-image: url("/Assets/images/mark-github.svg");
+}
+.icon {
+    background-image: url(/Assets/images/mark-github.svg);
+    z-index: 5;
     
+    color: white;
+}
+object {
+    height: 20;
+    width: 20;
+    background-color: white;
 }
 .nav-text {
     margin: 1%;
